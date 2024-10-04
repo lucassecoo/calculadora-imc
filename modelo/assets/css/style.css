@@ -1,0 +1,76 @@
+@charset "UTF 8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+html{
+    background-color: #005662;
+}
+
+section{
+    max-width: 400px;
+    background-color: white;
+    margin: 50px auto;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+section > h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+section > p{
+    padding-top: 10px;
+}
+
+div > ul{
+    list-style-type: none;
+}
+
+div > ul > li {
+    padding-top: 8px;
+}
+
+div#lista1, div#lista2{
+    display: inline-block;
+}
+
+div#lista2{
+    float: right;
+}
+
+form > p {
+    padding-top: 10px;
+}
+
+div#form > h1{
+    margin-top: 15px;
+}
+
+form > p > input{   
+    width: 380px;
+    padding: 7px;
+}
+
+input#botao{
+    width: 398px;
+    padding: 7px;
+    margin-top: 10px;
+    background-color: #012b30;
+    color: white;
+}
+
+input#botao:hover{
+    background-color: #0a5058;
+}
+
+input#botao:active{
+    background-color: gray;
+}
