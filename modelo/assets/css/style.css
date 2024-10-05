@@ -65,6 +65,7 @@ input#botao{
     margin-top: 10px;
     background-color: #012b30;
     color: white;
+    border-radius: 6px;
 }
 
 input#botao:hover{
@@ -74,3 +75,4 @@ input#botao:hover{
 input#botao:active{
     background-color: gray;
 }
+
